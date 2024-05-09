@@ -19,7 +19,9 @@ import cors from 'cors';
 async function startServer() {
     try {
         const app = express();
-        app.use(cors({ origin: 'http://localhost:5173' }));
+        
+        // Allow all origins
+        app.use(cors({ origin: '*' }));
         
         app.use(express.json());
         app.get('/artist', getArtist);
@@ -40,9 +42,9 @@ async function startServer() {
         app.get('/',getSample);
         app.post('/search',searchMusicAndArtists);
       
-      app.listen(3000, ()=> {
-          console.log("Running at 3000");
-      })
+        app.listen(3000, ()=> {
+            console.log("Running at 3000");
+        })
     } catch (error) {
         console.error("Failed to start server:", error);
     }
