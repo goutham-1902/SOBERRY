@@ -3,8 +3,8 @@ import logo from "../../public/ihhlogo.png";
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-const mainurl = "http://localhost:3000"
-//const mainurl = "https://api.contactsushil.me"
+//const mainurl = "http://localhost:3000"
+const mainurl = "https://soberry-2.onrender.com"
 
 const setCookie = (name, value, days) => {
     const expirationDate = new Date();

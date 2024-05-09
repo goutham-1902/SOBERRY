@@ -5,8 +5,8 @@ import { all } from '../../Data/newalb.js';
 import Card from '../Component/Card.jsx';
 import axios from 'axios'
 
-const mainurl = "http://localhost:3000"
-//const mainurl = "https://api.contactsushil.me"
+//const mainurl = "http://localhost:3000"
+const mainurl = "https://soberry-2.onrender.com"
 
 const Artistmusic = () => {
   const { id } = useParams();

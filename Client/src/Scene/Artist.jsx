@@ -4,8 +4,8 @@ import Cardart from '../Component/Cardart'
 import './Scene.css'
 import axios from 'axios'
 
-const mainurl = "http://localhost:3000"
-//const mainurl = "https://api.contactsushil.me"
+//const mainurl = "http://localhost:3000"
+const mainurl = "https://soberry-2.onrender.com"
 
 function artcreate(item){
   return <Cardart 

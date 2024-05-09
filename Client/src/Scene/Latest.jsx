@@ -4,8 +4,8 @@ import Card from "../Component/Card.jsx"
 import Headtitle2 from '../Component/Headtitle2.jsx'
 import axios from 'axios'
 
-const mainurl = "http://localhost:3000"
-//const mainurl = "https://api.contactsushil.me"
+//const mainurl = "http://localhost:3000"
+const mainurl = "https://soberry-2.onrender.com"
 
 function artcreate(item){
     return <Card

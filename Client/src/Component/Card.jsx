@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 
-const mainurl = "http://localhost:3000"
-//const mainurl = "https://api.contactsushil.me"
+//const mainurl = "http://localhost:3000"
+const mainurl = "https://soberry-2.onrender.com"
 
 const Card = (props) => {
   const [liked, setLiked] = useState(props.Likeddata); // Initialize liked state with Likeddata from props

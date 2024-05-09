@@ -4,8 +4,8 @@ import Headtitle2 from './Headtitle2';
 import Card from './Card';
 import Cardart from './Cardart';
 
-const mainurl = "http://localhost:3000"
-//const mainurl = "https://api.contactsushil.me"
+//const mainurl = "http://localhost:3000"
+const mainurl = "https://soberry-2.onrender.com"
 
 const SearchBox = ({ onSearch }) => {
   const [searchQuery, setSearchQuery] = useState('');
