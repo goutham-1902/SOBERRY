@@ -1,4 +1,4 @@
-Sobery is an audio streaming application focused on Indian Hip Hop music.
+Sobery is an audio streaming application.
 
 **Installation**
 To get started with IHH Player, you'll need to clone the repository and set up both the client and server:
