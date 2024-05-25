@@ -1,7 +1,8 @@
 Sobery is an audio streaming application.
+visit https://soberry.vercel.app/ to have a closer look.
 
 **Installation**
-To get started with IHH Player, you'll need to clone the repository and set up both the client and server:
+To get started with Soberry, you'll need to clone the repository and set up both the client and server:
 
 **Client (Frontend)**
 Clone the repository.
