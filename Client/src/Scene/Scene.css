@@ -1,0 +1,130 @@
+.recent{
+    margin-bottom: 40px;
+    
+}
+.artist{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+.mobilecards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    place-items: center;
+}
+}
+.albumboxlist{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media only screen and (max-width: 768px) {
+    .albumboxlist{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+.albumbannerse{
+    width: 90%;
+    border: transparent 2px solid;
+    border-radius: 50px;
+}
+.leftsidealb{
+    height: 100%;
+}
+.listitemlayer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    width: 100%;
+}
+.playiconlist{
+    width: 25px;
+}
+.listitemlayer:hover{
+    background-color: #343B44;
+}
+.listitemimage{
+    width: 120px;
+    border-radius: 20px;
+}
+.layer{
+    background-color: #343B44;
+    border: solid transparent 2px;
+    border-radius: 25px;
+    width: 80%;
+}
+.albumtitle{
+padding: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .layer{
+        background-color: #343B44;
+        border: solid transparent 2px;
+        border-radius: 25px;
+        height: 80%;
+        width: 100%;
+    }
+    }
+.albumtitleh{
+    font-size: xx-large;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.albumartisth{
+    font-size: x-large;
+    padding: 10px;
+    padding-top: 0px;
+}
+@media only screen and (max-width: 768px) {
+    .albumtitleh{
+        font-size: x-large;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+    .albumartisth{
+        font-size: large;
+        padding: 10px;
+        padding-top: 0px;
+    }
+    }
+.prelaoderdiv{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 110;
+        background-color: #08101A;
+}
+center.animate-pulse {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexboxplay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.circleplayimagee{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+.circleplayf{
+    width: 50px;
+    height: 50px;
+    background-color: #e5b79d;
+    border-radius: 50%;
+}
