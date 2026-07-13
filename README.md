@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="Client/public/ihhlogo.png" alt="SOBERRY logo" width="120">
-</p>
-
 # SOBERRY
 
 SOBERRY is a full-stack music discovery and playback application built with React, Express, and PostgreSQL. It provides account creation, music search and browsing, artist and genre views, playback controls, recently played tracks, and a personal liked-music state.
