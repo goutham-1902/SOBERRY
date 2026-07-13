@@ -2,6 +2,9 @@
   "name": "ihh-player",
   "private": true,
   "version": "0.0.0",
+  "description": "SOBERRY React music discovery and playback client",
+  "license": "GPL-3.0-only",
+  "author": "Goutham SDS Kodali",
   "type": "module",
   "scripts": {
     "dev": "vite",

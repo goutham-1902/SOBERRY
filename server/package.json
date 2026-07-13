@@ -1,16 +1,21 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "SOBERRY Express and PostgreSQL API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node locals.js",
+    "start:https": "node index.js"
   },
   "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "music-player",
+    "express",
+    "postgresql"
+  ],
+  "author": "Goutham SDS Kodali",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "axios": "^1.6.8",
     "bcrypt": "^5.1.1",
